@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquarda+Bastarda+9&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -40,11 +41,15 @@ body {
   transition: background-color 0.5s, color 0.5s;
 }
 
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .navbar-left h1 {
-  color: #d4d4d4;
   margin: 0;
-  white-space: nowrap;
-  font-size: 1.3em; 
+  align-items: center;
 }
 
 .navbar-right {
@@ -126,6 +131,8 @@ main {
   padding: 100px 20px 20px 20px;
   max-width: 900px;
   margin: 0 auto;
+  margin-bottom: 20px;
+
   width: 100%;
 }
 
@@ -181,7 +188,7 @@ footer {
   margin-top: auto;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .navbar-left h1 {
       font-size: 1.1em; 
   }
@@ -220,7 +227,7 @@ footer {
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 660px) {
   .navbar {
       flex-direction: column;
       align-items: center;
