@@ -100,6 +100,13 @@ audio{
   background-color: #d4d4d4;
 }
 
+.light-theme footer {
+
+  background-color: #d4d4d4;
+  color: #1e1e1e;
+
+}
+
 .light-theme .navbar-left h1,
 .light-theme .navbar-right a {
   color: #1e1e1e;
