@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Media/Photos/icon.png">
-    <title>Music Stuff - Llŷr's FuckingAroundabout</title>
+    <title>Llŷr's FuckingAround.about</title>
+    <script src="https://kit.fontawesome.com/7b28566f6b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar-left">
-            <h1>Llŷr's FuckingAroundabout</h1>
+            <h1>Llŷr's FuckingAround<span class="selected">.</span>about</h1>
         </div>
         <div class="navbar-right">
             <a href="index.html">Main</a>
             <a href="thoughts.html">Thoughts</a>
-            <a href="music.html">Music Stuff</a>
-            <button id="theme-toggle" class="theme-toggle">🌙</button>
+            <a href="music.html" class="selected" style="border-bottom:dotted;">Music Stuff</a>
+            <button id="theme-toggle" class="theme-toggle"> <i class="fas fa-moon"></i>
+            </button>
         </div>
     </nav>
-
+    <div class="cont">
     <main>
         <section id="music-content">
-            <h2>Music Stuff</h2>
+            <h2>M<span class="selected">ü</span>sic St<span class="selected">ü</span>ff</h2>
             <div class="blog-entry">
-                <h3>Music Entry 01 (lil test)</h3>
-                <p>28-09-2024 13:41</p>
-                <p>This is completely useless and meaningless, as it is just a lil test :3 (just like everything tbh)</p>
+                <h3>Music Entry 01 - (<i>lil test</i>)</h3>
+                <p class="fecha">28-09-2024 13:41</p>
+                <p><br>This is completely useless and meaningless, as it is just a lil test :3 (just like everything tbh)</p><br>
                 <audio controls>
                     <source src="Media/Music/Weird Fishes - Arpeggi [piano cover].mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
@@ -34,7 +37,7 @@
             </div>
         </section>
     </main>
-
+    </div>
     <footer>
         <p>llyr_7 on discord if u want to chat :3</p>
     </footer>

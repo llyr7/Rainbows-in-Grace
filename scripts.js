@@ -2,12 +2,15 @@ const themeToggle = document.getElementById('theme-toggle');
 
 // Función para establecer el tema
 function setTheme(theme) {
+    const icon = themeToggle.querySelector('i');
     if (theme === 'light') {
         document.body.classList.add('light-theme');
-        themeToggle.textContent = '☀️';
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
     } else {
         document.body.classList.remove('light-theme');
-        themeToggle.textContent = '🌙';
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
     }
     localStorage.setItem('theme', theme);
 }

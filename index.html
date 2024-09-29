@@ -4,39 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Media/Photos/icon.png">
-    <title>Llŷr's FuckingAroundabout</title>
+    <title>Llŷr's FuckingAround.about</title>
+    <script src="https://kit.fontawesome.com/7b28566f6b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar-left">
-            <h1>Llŷr's FuckingAroundabout</h1>
+            <h1>Llŷr's FuckingAround<span class="selected">.</span>about</h1>
         </div>
         <div class="navbar-right">
-            <a href="index.html">Main</a>
+            <a href="index.html" class="selected" style="border-bottom: dashed;">Main</a>
             <a href="thoughts.html">Thoughts</a>
             <a href="music.html">Music Stuff</a>
-            <button id="theme-toggle" class="theme-toggle">🌙</button>
+            <button id="theme-toggle" class="theme-toggle"> <i class="fas fa-moon"></i>
+            </button>
         </div>
     </nav>
-
+    <div class="cont">
     <main>
-        <section id="intro">
-            <h2 style="text-align: center;border-bottom:none;padding-bottom: 0;font-size: 4em;" id="hi">_Hi_</h2>
+        <section class="intro">
+            <h2 style="text-align: center;border-bottom:none;padding-bottom: 0;font-size: 4em;" id="hi" class="selected">_Hi_</h2>
             
-            <p style="border: dashed; padding: 15px;">My name is Llŷr, I am a Uruguayan dude currently studying computer engineering. My idea is to use this space to yap about music, art, culture, philosophy, politics, history, literature, science and programming; basically, stuff I found interesting and enjoying :3</p>
+            <p class="introp">My name is <b class="selected">Llŷr</b>, I am a Uruguayan dude currently studying computer engineering. My idea is to use this space to yap about music, art, culture, philosophy, politics, history, literature, science and programming; basically, stuff I find interesting and enjoying :3</p>
         </section>
 
         <section id="latest-posts">
             <h2>Latest Posts</h2>
             <article class="blog-entry">
                 <h3>Die erste</h3>
-                <p>28-09-2024 15:50</p>
+                <p class="fecha">28-09-2024 15:50</p>
                 <p>‘Die erste’ means “the first one” just in case, as an example for now I will share with you a message I wrote at the age of 16 while high on apple flavoured Ades, originally in Spanish but translated it goes like this: <br><br><i>’So... we can say that from a mathematical philosophical point of view, life and the meaning we give it is nothing but a homothety of a polyhedron with infinite sides, where our opinion is based on a reason, the same being a natural number within an infinite set. Our view of things will be reflected in the distance from the centre of the homothety to the X', dictated by the corresponding ratio. Given the different reasons, the polyhedron of infinite sides will not be represented faithfully and proportionately, but will create a totally different figure, resulting in the very essence of the soul and the ego, each being merely a figure...’</i></p>
             </article>
         </section>
     </main>
-
+</div>
     <footer>
         <p>llyr_7 on discord if u want to chat :3</p>
     </footer>
