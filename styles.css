@@ -404,3 +404,12 @@ footer{
     border-bottom: 1px solid #a8a8a8;
 }
 }
+
+a, button {
+  outline: none; 
+  outline-style: none;
+  -webkit-tap-highlight-color: transparent; 
+  -moz-outline-style: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation; 
+}
