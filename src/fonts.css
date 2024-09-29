@@ -1,0 +1,152 @@
+/* Kalam */
+@font-face {
+    font-family: 'Kalam';
+    src: url('/Media/Fonts/Kalam/Kalam-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Kalam';
+    src: url('/Media/Fonts/Kalam/Kalam-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Kalam';
+    src: url('/Media/Fonts/Kalam/Kalam-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+/* Roboto */
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Media/Fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Kanit */
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-Thin.ttf') format('truetype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-LightItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-ThinItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-BlackItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Kanit';
+    src: url('/Media/Fonts/Kanit/Kanit-MediumItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 500;
+}

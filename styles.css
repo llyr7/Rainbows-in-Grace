@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquarda+Bastarda+9&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url(src/fonts.css);
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-kerning: auto;
 }
 
 body {
-  font-family: "Kanit", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   background-color: #1e1e1e;
   color: #d4d4d4;
   margin: 0;
@@ -24,8 +24,20 @@ body {
   opacity: 1;
 }
 
+.audio-player {
+  width: 100%;
+  transition: background-color 0.5s;
+}
 #hi {
   font-family: "Kalam", cursive;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: color 1s;
+  text-align: center;
+  border-bottom: none;
+  padding-bottom: 0;
+  font-size: 4em;
+  display: block;
 }
 
 .navbar {
@@ -42,8 +54,18 @@ body {
   transition: background-color 0.5s, color 0.5s;
 }
 
+.navbar,
+.fecha,
+h1,
+h2,
+h3,
+footer {
+  font-family: "Kanit", cursive;
+}
+
 .navbar-left h1 {
   margin: 0;
+  font-kerning: auto;
   align-items: center;
   font-size: 2em;
 }
@@ -57,7 +79,7 @@ body {
 
 .selected {
   color: #ffc400;
-  transition: color 1.5s;
+  transition: color 0.5s;
 }
 
 .navbar-right .selected {
@@ -76,15 +98,11 @@ body {
   border-bottom: solid rgba(0, 0, 0, 0);
   align-items: center;
   height: 100%;
-  transition: color 1.5s;
+  transition: color 0.5s;
 }
 
 .navbar-right a:hover:not(.selected) {
   color: #a8a8a8;
-}
-
-audio {
-  width: 100%;
 }
 
 .theme-toggle {
@@ -171,6 +189,7 @@ main {
   margin: 0 auto;
   margin-bottom: 20px;
   width: 100%;
+  position: relative;
 }
 .cont {
   overflow-y: auto;
@@ -183,28 +202,25 @@ h2 {
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 2.5em;
-  transition: color 1s;
 }
 
 .fecha {
   color: #ffc400;
   font-style: italic;
-  transition: color 1.5s;
+  transition: color 0.5s;
 }
 
 .intro {
   text-align: justify;
   margin-bottom: 30px;
   font-size: 1.3em;
-  transition: background-color 0.5s, color 0.5s;
 }
 
 .introp {
-  line-height: 20px;
+  line-height: 1.5;
   border: dashed;
   padding: 15px;
   font-size: 1em;
-  transition: background-color 0.5s, color 0.5s;
 }
 
 .blog-entry {
@@ -213,8 +229,7 @@ h2 {
   background-color: #2e2e2e;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  transition: padding 0.5s, margin 0.5s;
-  transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s;
 }
 
 .blog-entry h3 {
@@ -225,7 +240,7 @@ h2 {
 .blog-entry p {
   margin: 10px 0;
   text-align: justify;
-  line-height: 20px;
+  line-height: 1.5;
   font-size: 1.1em;
 }
 
@@ -389,4 +404,20 @@ button {
   -moz-outline-style: none;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
+}
+/* Sección por defecto: oculta */
+section {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#main-section {
+  display: block;
+  opacity: 1;
+}
+
+section[style*="display: block"] {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
 }
