@@ -1,48 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Media/Photos/icon.png">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Llŷr's FuckingAround.about</title>
-    <script src="https://kit.fontawesome.com/7b28566f6b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="icon" href="Media/Photos/icon.png" />
+    <script
+      src="https://kit.fontawesome.com/7b28566f6b.js"
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="navbar-left">
-            <h1>Llŷr's FuckingAround<span class="selected">.</span>about</h1>
-        </div>
-        <div class="navbar-right">
-            <a href="index.html" class="selected" style="border-bottom: dashed;">Main</a>
-            <a href="thoughts.html">Thoughts</a>
-            <a href="music.html">Music Stuff</a>
-            <button id="theme-toggle" class="theme-toggle"> <i class="fas fa-moon"></i>
-            </button>
-        </div>
+      <div class="navbar-left">
+        <h1>Llŷr's FuckingAround<span class="selected">.</span>about</h1>
+      </div>
+      <div class="navbar-right">
+        <a href="javascript:function() { return false; }" onclick="showSection('main')" class="selected">Main</a>
+        <a href="javascript:function() { return false; }" onclick="showSection('thoughts')">Thoughts</a>
+        <a href="javascript:function() { return false; }" onclick="showSection('music')">Music Stuff</a>
+        <button id="theme-toggle" class="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
     </nav>
+
     <div class="cont">
-    <main>
+      <main id="main-section">
+        <!-- Main content here -->
         <section class="intro">
-            <h2 style="text-align: center;border-bottom:none;padding-bottom: 0;font-size: 4em;" id="hi" class="selected">_Hi_</h2>
-            
-            <p class="introp">My name is <b class="selected">Llŷr</b>, I am a Uruguayan dude currently studying computer engineering. My idea is to use this space to yap about music, art, culture, philosophy, politics, history, literature, science and programming; basically, stuff I find interesting and enjoying :3</p>
+          <h2
+            style="
+              text-align: center;
+              border-bottom: none;
+              padding-bottom: 0;
+              font-size: 4em;"
+            id="hi"
+            class="selected">
+            _Hi_
+          </h2>
+
+          <p class="introp">
+            My name is <b class="selected">Llŷr</b>, I am a Uruguayan dude
+            currently studying computer engineering. My idea is to use this
+            space to yap about music, art, culture, philosophy, politics,
+            history, literature, science and programming; basically, stuff I
+            find interesting and enjoying :3
+          </p>
         </section>
 
         <section id="latest-posts">
-            <h2>Latest Posts</h2>
-            <article class="blog-entry">
-                <h3>Die erste</h3>
-                <p class="fecha">28-09-2024 15:50 <small class="timezone">(UTC-03:00)</small></p>
-                <p>‘Die erste’ means “the first one” just in case, as an example for now I will share with you a message I wrote at the age of 16 while high on apple flavoured Ades, originally in Spanish but translated it goes like this: <br><br><i>’So... we can say that from a mathematical philosophical point of view, life and the meaning we give it is nothing but a homothety of a polyhedron with infinite sides, where our opinion is based on a reason, the same being a natural number within an infinite set. Our view of things will be reflected in the distance from the centre of the homothety to the X', dictated by the corresponding ratio. Given the different reasons, the polyhedron of infinite sides will not be represented faithfully and proportionately, but will create a totally different figure, resulting in the very essence of the soul and the ego, each being merely a figure...’</i></p>
-            </article>
+          <h2>Latest Posts</h2>
+          <article class="blog-entry">
+            <h3>Die erste</h3>
+            <p class="fecha">
+              28-09-2024 15:50 <small class="timezone">(UTC-03:00)</small>
+            </p>
+            <p>
+              ‘Die erste’ means “the first one” just in case, as an example for
+              now I will share with you a message I wrote at the age of 16 while
+              high on apple flavoured Ades, originally in Spanish but translated
+              it goes like this: <br /><br /><i>
+                ’So... we can say that from a mathematical philosophical point
+                of view, life and the meaning we give it is nothing but a
+                homothety of a polyhedron with infinite sides, where our opinion
+                is based on a reason, the same being a natural number within an
+                infinite set. Our view of things will be reflected in the
+                distance from the centre of the homothety to the X', dictated by
+                the corresponding ratio. Given the different reasons, the
+                polyhedron of infinite sides will not be represented faithfully
+                and proportionately, but will create a totally different figure,
+                resulting in the very essence of the soul and the ego, each
+                being merely a figure...’</i>
+            </p>
+          </article>
         </section>
-    </main>
-</div>
+      </main>
+      <section id="thoughts-section" style="display: none">
+        <!-- Thoughts content here -->
+        <main id="thoughts-content">
+          <h2>Some <span class="selected">?</span> Thoughts</h2>
+          <div class="blog-entry">
+            <h3>A kink of justified idiocy</h3>
+            <p class="fecha">
+              28-09-2024 13:36 <small class="timezone">(UTC-03:00)</small>
+            </p>
+            <p>
+              Sometimes, it’s like we’re masterful fools, finding weird ways to
+              make our nonsense seem perfectly reasonable. It’s that odd charm
+              in doing something completely ridiculous but feeling totally
+              justified about it, like it was meant to be all along.
+              <br /><br />
+              <b>
+                It's like wearing a cape to the grocery store — totally
+                unnecessary, but somehow, it just feels right.
+              </b>
+            </p>
+          </div>
+        </main>
+      </section>
+      <main id="music-section" style="display: none">
+        <!-- Music content here -->
+        <section id="music-content">
+          <h2>
+            M<span class="selected">ü</span>sic St<span class="selected">ü</span
+            >ff
+          </h2>
+          <div class="blog-entry">
+            <h3>Music Entry 01 - (<i>lil test</i>)</h3>
+            <p class="fecha">
+              28-09-2024 13:41 <small class="timezone">(UTC-03:00)</small>
+            </p>
+            <p>
+              <br />This is completely useless and meaningless, as it is just a
+              lil test :3 (just like everything tbh)
+            </p>
+            <br />
+            <audio controls>
+              <source
+                src="Media/Music/Weird Fishes - Arpeggi [piano cover].mp3"
+                type="audio/mpeg"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </section>
+      </main>
+    </div>
+
     <footer>
-        <p><b class="selected">llyr_7</b> on discord if u want to chat :3</p>
+      <p><b class="selected">llyr_7</b> on discord if u want to chat :3</p>
     </footer>
 
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
