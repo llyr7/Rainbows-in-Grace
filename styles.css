@@ -265,6 +265,11 @@ footer {
   margin-top: auto;
   transition: background-color 0.5s, color 0.5s;
 }
+.timezone{
+
+  font-size: 0.7em;
+
+}
 
 @media (max-width: 860px) {
   .navbar {
@@ -321,6 +326,12 @@ main {
 
 .blog-entry p {
     font-size: 1em; 
+}
+
+.timezone{
+
+  font-size: 0.75em;
+
 }
 
 h2 {
@@ -391,7 +402,11 @@ footer{
   .blog-entry p {
       font-size: 0.9em; 
   }
+  .timezone{
 
+    font-size: 0.7em;
+  
+  }
   .blog-entry {
       padding: 15px;
       margin-bottom: 20px;
