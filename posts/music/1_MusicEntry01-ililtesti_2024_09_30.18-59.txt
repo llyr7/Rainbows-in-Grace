@@ -1,0 +1,5 @@
+Music Entry 01 - (<i>lil test</i>)
+30-09-2024 18:59
+This is completely useless and meaningless, as it is just a lil test :3 (just like everything tbh)
+
+<audio class="audio-player" controls><source src="media\audio\Weird Fishes - Arpeggi [piano cover].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>

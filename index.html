@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Llŷr's FuckingAround.about</title>
+    
     <meta
       name="description"
       content="Explore Llyr's thoughts on music, art, culture, programming, history, and more. A blog for curious minds who enjoy diverse topics and creative insights."
@@ -13,35 +14,42 @@
       content="Llyr, music, art, philosophy, programming, culture, history, blog, Uruguay"
     />
     <meta name="author" content="Llyr" />
-    <meta property="og:title" content="Llyr's FuckingAround.about" />
+    <meta property="og:title" content="Llŷr's FuckingAround.about" />
     <meta
       property="og:description"
       content="A blog discussing music, art, culture, programming, and more."
     />
-    <meta property="og:image" content="Media/Photos/icon.png" />
+    <meta property="og:image" content="media/image/perm/icon.png" />
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
       content="https://llyr04.github.io/Llyrs-FuckingAroundabout/"
     />
-    <link rel="icon" href="Media/Photos/icon.png" title="Llyr's Blog Icon" />
+    <link
+      rel="icon"
+      href="media/image/perm/icon.png"
+      title="Llŷr's Blog Icon"
+    />
     <script
+      defer
       src="https://kit.fontawesome.com/7b28566f6b.js"
       crossorigin="anonymous"
     ></script>
-
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
+    
     <!-- Schema Markup -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Blog",
         "url": "https://llyr04.github.io/Llyrs-FuckingAroundabout/",
-        "name": "Llyr's FuckingAround.about",
+        "name": "Llŷr's FuckingAround.about",
         "description": "A blog discussing music, art, culture, programming, and more.",
         "publisher": {
           "@type": "Person",
-          "name": "Llyr"
+          "name": "Llŷr",
+          "url": "https://llyr04.github.io",
+          "sameAs": "https://github.com/Llyr04"
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
@@ -54,17 +62,24 @@
             "description": "A reflective piece on mathematical philosophy.",
             "author": {
               "@type": "Person",
-              "name": "Llyr"
+              "name": "Llŷr"
             },
             "datePublished": "2024-09-28",
-            "image": "Media/Photos/icon.png",
-            "articleBody": "‘Die erste’ means 'the first one'..."
+            "image": "media/image/perm/icon.png",
+            "articleBody": "‘Die erste’ means 'the first one'...",
+            "url": "https://llyr04.github.io/Llyrs-FuckingAroundabout/",
+            "publisher": {
+              "@type": "Person",
+              "name": "Llŷr"
+            }
           }
+          
         ]
       }
     </script>
     <!-- End of Schema Markup -->
   </head>
+
   <body>
     <nav class="navbar">
       <div class="navbar-left">
@@ -114,104 +129,56 @@
 
           <div id="latest-posts">
             <h2>Latest Posts</h2>
-            <article class="blog-entry">
-              <h3>«Die erste»</h3>
-              <p class="fecha">
-                28-09-2024 15:50 <small class="timezone">(UTC-03:00)</small>
-              </p>
-              <p>
-                Die erste... It means “the first one” in German btw. This is the
-                first post in this section, hopefully, as I add more stuff it
-                won't all break down on my end, I made the blog by myself with
-                blood sweat and javascript, so.... the code isn't very pretty
-                but I mean... It fkn works right?, at least for now xd.
-                <br /><br />So anyways, as an example for now I will share with
-                you a message I wrote at the age of 16 while high on
-                <span class="selected">apple-flavored ADES</span> (yeah, that
-                weirdly delicious juice), originally in Spanish but translated
-                it goes like this: <br /><br />
-
-                <i>
-                  ‘So... we can say that from a mathematical philosophical point
-                  of view, life and the meaning we give it is nothing but a
-                  homothety of a polyhedron with infinite sides, where our
-                  opinion is based on a reason, the same being a natural number
-                  within an infinite set. <br />Our view of things will be
-                  reflected in the distance from the centre of the homothety to
-                  the X', dictated by the corresponding ratio. Given the
-                  different reasons, the polyhedron of infinite sides will not
-                  be represented faithfully and proportionately, but will create
-                  a totally different figure, resulting in the very essence of
-                  the soul and the ego, each being merely a figure...’.
-                </i>
-                <br /><br />
-                <b>~ yeah, definitely high on that apple juice.</b>
-              </p>
+            <!--main-->
+            <article class="blog-entry" style="position: relative;">
+                <span class="npost selected">#1</span>
+                <h3>«Die erste»</h3>
+                <p class="fecha">30-09-2024 18:57 <small class="timezone">(UTC-03:00)</small></p>
+                <p>Die erste... It means “the first one” in German btw. This is the first post in this section, hopefully, as I add more stuff it won't all break down on my end, I made the blog by myself with blood sweat and javascript, so.... the code isn't very pretty but I mean... It fkn works right?, at least for now xd. <br /><br />So anyways, as an example for now I will share with you a message I wrote at the age of 16 while high on <span class="selected">apple-flavored ADES</span> (yeah, that weirdly delicious juice), originally in Spanish but translated it goes like this: <br /><br /> <i> ‘So... we can say that from a mathematical philosophical point of view, life and the meaning we give it is nothing but a homothety of a polyhedron with infinite sides, where our opinion is based on a reason, the same being a natural number within an infinite set. <br />Our view of things will be reflected in the distance from the centre of the homothety to the X', dictated by the corresponding ratio. Given the different reasons, the polyhedron of infinite sides will not be represented faithfully and proportionately, but will create a totally different figure, resulting in the very essence of the soul and the ego, each being merely a figure...’. </i> <br /><br /> <b>~ yeah, definitely high on that apple juice.</b></p>
             </article>
+            <!--end-main-->
           </div>
         </section>
+
         <section id="thoughts-section" style="display: none">
           <!-- Thoughts content here -->
           <div id="thoughts-content">
             <h2>Some <span class="selected">?</span> Thoughts</h2>
-            <div class="blog-entry">
-              <h3>A kink of justified idiocy</h3>
-              <p class="fecha">
-                28-09-2024 13:36 <small class="timezone">(UTC-03:00)</small>
-              </p>
-              <p>
-                Sometimes, it’s like we’re professional idiots, finding genius
-                in making our nonsense look totally legit. There’s that odd
-                satisfaction in doing something utterly ridiculous but feeling
-                like it was the most logical move ever.
-                <br /><br />
-                <b>
-                  Kinda like wearing a cape to buy bread—completely unnecessary,
-                  but somehow, it just feels like you’re on the right track.
-                </b>
-              </p>
-            </div>
+            <!--thoughts-->
+            <article class="blog-entry" style="position: relative;">
+                <span class="npost selected">#1</span>
+                <h3>A kink of justified idiocy</h3>
+                <p class="fecha">30-09-2024 18:58 <small class="timezone">(UTC-03:00)</small></p>
+                <p>Sometimes, it’s like we’re professional idiots, finding genius in making our nonsense look totally legit. There’s that odd satisfaction in doing something utterly ridiculous but feeling like it was the most logical move ever. <br /><br /> <b> Kinda like wearing a cape to buy bread—completely unnecessary, but somehow, it just feels like you’re on the right track. </b></p>
+            </article>
+            <!--end-thoughts-->
           </div>
         </section>
+
         <section id="music-section" style="display: none">
           <!-- Music content here -->
           <div id="music-content">
             <h2>
-              M<span class="selected">ü</span>sic St<span class="selected"
-                >ü</span
-              >ff
+              M<span class="selected">ü</span>sic St<span class="selected">ü</span>ff
             </h2>
-            <div class="blog-entry">
-              <h3>Music Entry 01 - (<i>lil test</i>)</h3>
-              <p class="fecha">
-                28-09-2024 13:41 <small class="timezone">(UTC-03:00)</small>
-              </p>
-              <p>
-                <br />This is completely useless and meaningless, as it is just
-                a lil test :3 (just like everything tbh)
-              </p>
-              <br />
-              <audio
-                class="audio-player"
-                controls
-                aria-label="Weird Fishes Piano Cover Audio"
-              >
-                <source
-                  src="Media/Music/Weird Fishes - Arpeggi [piano cover].mp3"
-                  type="audio/mpeg"
-                />
-                Your browser does not support the audio element.
-              </audio>
-            </div>
+            <!--music-->
+            <article class="blog-entry" style="position: relative;">
+                <span class="npost selected">#1</span>
+                <h3>Music Entry 01 - (<i>lil test</i>)</h3>
+                <p class="fecha">30-09-2024 18:59 <small class="timezone">(UTC-03:00)</small></p>
+                <p>This is completely useless and meaningless, as it is just a lil test :3 (just like everything tbh)
+
+<audio class="audio-player" controls><source src="media\audio\Weird Fishes - Arpeggi [piano cover].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></p>
+            </article>
+            <!--end-music-->
           </div>
         </section>
       </main>
     </div>
-
     <footer>
-      <p><b class="selected">llyr_7</b> on discord if u want to chat :3</p>
+      <p><b class="selected">llyr_7</b> on Discord if u want to chat :3</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="src/scripts.js"></script>
   </body>
 </html>
